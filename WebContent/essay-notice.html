@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8" />
@@ -10,81 +10,42 @@
 		<title></title>
 		<!-- External CSS -->
 	    <link href="css/hover.css" rel="stylesheet">
-	    <link href="css/essay-notice.css" rel="stylesheet">
-	    <style>
-	    	body{width: 1200px;height: auto;box-shadow: 1px 1px 5px 5px #cccccc;margin: auto;font-family: "microsoft yahei";margin-top: 10px;margin-bottom: 20px;}
+	    <style>	   
+	    *{margin: 0;padding: 0;border: none;} 	
+	    .main{overflow: hidden;}
+		.main-navbar{width:250px;min-height: 100px;background-color: #ffffff;float: left;margin-left: 20px;font-family: "微软雅黑";}
+		.main-content{width: 800px;min-height: 100px;float: right;font-family: "宋体";margin-right: 20px;}
+		.main-navbar-ul li{list-style-type: none;padding-top: 10px;padding-bottom: 10px;border-bottom: 1px dotted #cccccc;}
+		.main-navbar-ul li a{text-decoration: none;color: #555555;font-size: 16px;}
+		.main-navbar-ul li a:hover{color: #00629d;}
+		.main-navbar-ul img{width: 8px;height: 12px;margin-right: 20px;}
+		.article-title{text-align: center;font-size: 24px;font-weight: bold;}
+		.article-title-type{text-align: center;font-size: 24px;margin-top: 20px;margin-bottom: 10px;font-weight: bold;}
+		.article-subtitle{font-size: 24px;margin-top: 25px;margin-bottom: 10px;font-weight: bold;color: #800000;}
+		p{text-indent: 2em;line-height: 23px;letter-spacing: 1px;}
+		.p-strong{font-weight: bold;}
+		.article-li-01{margin-left: 70px;margin-bottom: 5px;}
+		.article-li-02{margin-left: 50px;line-height: 22px;margin-bottom: 5px;}
+		.article-p-01{font-size: 17px;margin-top: 10px;margin-bottom: 6px;}
 	    </style>
 	</head>
 
 	<body>
-    <!-- =================================-->
-    <!-- header -->
-	<div class="floor-01 container">
-		<img src="img/img-01.png">
-	</div>	
-    <!-- =================================-->
-    
-    <!-- =================================-->
-    <!-- navbar -->
-	<div class="floor-02 container">
-		<div class="navbar">
-			<ul>
-				<li class="nli"><a href="main.html">首页</a></li>
-				<li class="nli"><a href="essay-notice.html">征文通知</a></li>
-				<li class="nli"><a href="blank.html">会议组织</a></li>			
-				<li class="nli"><a href="blank.html">主题报告</a></li>			
-				<li class="nli"><a href="blank.html">会议注册</a></li>
-				<li class="nli"><a href="blank.html">交通信息</a></li>
-				<li class="nli"><a href="blank.html">会议报告</a></li>
-				<li class="nli"><a href="blank.html">会议流程</a></li>			
-				<li class="nli"><a href="essay-submit.html" >演示论文提交</a></li>			
-				<li class="nli"><a href="blank.html">联系我们</a></li>
-			</ul>
-		</div>
-	</div>	
-    <!-- =================================-->
-    
-    <!-- =================================-->
-    <!-- banner -->
-	<div class="floor-03 container">
-		<div class="banner">
-		<div id="slideBox" class="slideBox">
-			<div class="bd">
-				<ul>
-					<li><a href="#" target="_blank"><img src="img/img-10.jpg" /></a></li>
-					<li><a href="#" target="_blank"><img src="img/img-11.jpg" /></a></li>
-					<li><a href="#" target="_blank"><img src="img/img-12.jpg" /></a></li>
-				</ul>
-			</div>
-
-			<a class="prev" href="javascript:void(0)"></a>
-			<a class="next" href="javascript:void(0)"></a>
-
-		</div>
-		</div>
-	</div>	
-    <!-- =================================-->
-    
-    <!-- =================================-->
-    <!-- main -->
-    <style>
-    </style>
-	<div class="floor-04 container">
 		<div class="main">
 			<div class="main-navbar">
 				<ul class="main-navbar-ul">
-					<li><img src="img/arrow-01.png"><a href="#">征文范围</a></li>
-					<li><img src="img/arrow-01.png"><a href="#">投稿要求</a></li>
-					<li><img src="img/arrow-01.png"><a href="#">论文出版</a></li>
-					<li><img src="img/arrow-01.png"><a href="#">投稿方式及重要日期</a></li>					
-					<li><img src="img/arrow-01.png"><a href="#">联系方式</a></li>		
+					<li><img src="img/arrow-01.png"><a href="#a">征文范围</a></li>
+					<li><img src="img/arrow-01.png"><a href="#b">投稿要求</a></li>
+					<li><img src="img/arrow-01.png"><a href="#c">论文出版</a></li>
+					<li><img src="img/arrow-01.png"><a href="#d">投稿方式及重要日期</a></li>					
+					<li><img src="img/arrow-01.png"><a href="#e">联系方式</a></li>		
 				</ul>
 			</div>
 			<div class="main-content">
 				<div class="article-title">2017年第七届中国业务过程管理大会(CBPM2017)</div>
 				<div class="article-title-type">征文通知</div>
 				 <p>第七届中国业务过程管理大会将由湖南科技大学承办，将于2017年9月9日—9月11日在湖南湘潭召开。此次大会旨在通过组织学术报告、业界专题报告、BPM圆桌讨论、博士生论坛、系统演示等形式深入交流BPM领域最新的创新性学术成果和工业应用、特别是当前信息技术和业务实践下的 BPM的最新研究与实践。</p>
-			    <div class="article-subtitle">征文范围</div>
+			    <div class="article-subtitle" id="a">征文范围</div>
 			    <p><strong>征集的论文题目包括但不限于以下范畴：</strong></p>
 			    <p class="article-p-01">1、业务过程建模与分析</p>
 			    <ul>
@@ -122,50 +83,22 @@
 			    <ul>
 					<li class="article-li-01">业务过程相关的需求获取 • 创新性BPM实现及应用 • BPM对信息技术使用及业务实践的影响</li>
 			    </ul>
-			    <div class="article-subtitle">投稿要求</div>	
+			    <div class="article-subtitle" id="b">投稿要求</div>	
 			    <ul>
 					<li class="article-li-02">投稿必须原创的、没有提交或发表于其它会议或期刊，论文投稿可采用中文或英文撰写。每篇投稿将至少被三位专家评审。投稿论文总页数建议不超过10页，论文模板详细情况请参见:http://www.cims-journal.cn/JournalX_Cims/basicinfo/viewHtmlFile.action?magId=1&id=23</li>
 					<li class="article-li-02">本届CBPM将从投稿论文中选出不多于三篇“新苗”论文。新苗论文应有创新：问题新颖、有应用背景和进一步发展的潜力，但文中已有的成果不一定完善。新苗论文可以被会议录用，也可只录用为新苗论文。程序委员会将给每一篇新苗论文指派 1-2名指导老师，以帮助论文作者做进一步的深入研究以提高研究结果质量，争取在顶尖国际会议发表。指导老师将由国际知名的资深研究者担任。CBPM程序委员会只负责新苗论文筛选及导师指派，所有其它事由包括合作具体事项、未来文章发表等等将由当事人（指导老师和作者）自己协商决定。</li>
 				</ul>
-			    <div class="article-subtitle">论文出版</div>
-			    <p class="p-strong">会议录用论文将全部发表于国内EI期刊和核心期刊（正刊），包括计算机研究与发展、电子学报、计集成制造系统、浙江大学学报（工学版）等期刊。大会将依据审稿与大会报告的情况颁发2-3名最佳论文奖。</p>
+			    <div class="article-subtitle" id="c">论文出版</div>
+			    <p class="p-strong">会议录用论文将全部发表于国内EI期刊和核心期刊（正刊），包括计算机研究与发展、电子学报、计集成制造系统、软件学报等期刊。大会将依据审稿与大会报告的情况颁发2-3名最佳论文奖。</p>
 			    <div class="article-subtitle">投稿方式及重要日期</div>
 			    <ul>
 			    	<li class="article-li-02 p-strong">投稿请使用easychair投稿系统</li>
 			    	<li class="article-li-02 p-strong">投稿截止日期:2017年6月30日</li>
 			    	<li class="article-li-02 p-strong">录用通知日期:2017年8月15日</li>
 			    </ul>
-			    <div class="article-subtitle">联系方式</div>
-			    <p class="p-strong">文一凭：ypwen81@gmail.com</p>	    
+			    <div class="article-subtitle" id="d">联系方式</div>
+			    <p class="p-strong" id="e">文一凭：ypwen81@gmail.com</p>	    
 			</div>
 		</div>
-	</div>	
-    <!-- =================================-->
-    
-    <!-- =================================-->
-    <!-- footer -->
-	<div class="floor-05 container">
-		<div class="footer">All rights reserved © 2017 第七届中国业务过程管理大会 (China BPM 2017)</div>
-	</div>	
-    <!-- =================================-->
-    
-    <!-- =================================-->
-    <!-- js -->
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/jquery.SuperSlide.2.1.js"></script>
-    <script>
-    $(function(){    
-      // $("#rightFrame").height($("#rightFrame").contents().find("html").height()+20)
-    //slideBox
-    $("#slideBox").slide({
-    	mainCell:".bd ul",
-    	effect:"leftLoop",
-    	autoPlay:true,
-    	trigger:"click"
-    	});
-	     
-    });
-    </script>
-    <!-- =================================-->    
 	</body>
 </html>
