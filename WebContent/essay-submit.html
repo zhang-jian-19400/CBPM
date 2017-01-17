@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	    <!-- viewport -->
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <!-- 360 -->
+	    <meta name="renderer" content="webkit">
+		<title></title>
+		<!-- External CSS -->
+	    <link href="css/hover.css" rel="stylesheet">
+	    <link href="css/essay-submit.css" rel="stylesheet">
+	    <style>
+	    body{width: 1200px;height: auto;box-shadow: 1px 1px 5px 5px #cccccc;margin: auto;font-family: "microsoft yahei";margin-top: 10px;margin-bottom: 20px;}
+	    </style>
+	</head>
+
+
+	<body>
+    <!-- =================================-->
+    <!-- header -->
+	<div class="floor-01 container">
+		<img src="img/img-01.png">
+	</div>	
+    <!-- =================================-->
+    
+    <!-- =================================-->
+    <!-- navbar -->
+	<div class="floor-02 container">
+		<div class="navbar">
+			<ul>
+				<li class="nli"><a href="main.html">首页</a></li>
+				<li class="nli"><a href="essay-notice.html">征文通知</a></li>
+				<li class="nli"><a href="blank.html">会议组织</a></li>			
+				<li class="nli"><a href="blank.html">主题报告</a></li>			
+				<li class="nli"><a href="blank.html">会议注册</a></li>
+				<li class="nli"><a href="blank.html">交通信息</a></li>
+				<li class="nli"><a href="blank.html">会议报告</a></li>
+				<li class="nli"><a href="blank.html">会议流程</a></li>			
+				<li class="nli"><a href="essay-submit.html" >演示论文提交</a></li>			
+				<li class="nli"><a href="blank.html">联系我们</a></li>
+			</ul>
+		</div>
+	</div>	
+    <!-- =================================-->
+    
+    <!-- =================================-->
+    <!-- banner -->
+	<div class="floor-03 container">
+		<div class="banner">
+		<div id="slideBox" class="slideBox">
+			<div class="bd">
+				<ul>
+					<li><a href="#" target="_blank"><img src="img/img-10.jpg" /></a></li>
+					<li><a href="#" target="_blank"><img src="img/img-11.jpg" /></a></li>
+					<li><a href="#" target="_blank"><img src="img/img-12.jpg" /></a></li>
+				</ul>
+			</div>
+
+			<a class="prev" href="javascript:void(0)"></a>
+			<a class="next" href="javascript:void(0)"></a>
+
+		</div>
+		</div>
+	</div>	
+    <!-- =================================-->
+    
+    <!-- =================================-->
+    <!-- main -->
+    <style>
+    </style>
+	<div class="floor-04 container">
+		<div class="main">
+			<div class="article-title">演示论文提交</div>
+			<p class="p-01">我们欢迎研究机构或者企业提交演示论文。系统演示报告可以是未发表的研究成果，如最新BPM技术的进展和实现；也可以是过去发表但系统功能现在已经扩充或明显改进的研究成果（文中必须明确注明）。论文投稿可采用中文或英文撰写，中文论文篇幅不超过A4幅面4页演示报告。投稿内容应包括:</p>
+			<ul>
+				<li class="li-01">中英文题目、作者信息、中英文摘要、关键词。</li>
+				<li class="li-01">实际系统或原型系统解决方案背景，系统体系结构、关键技术，系统未来创新和开发的方向等。也可以以“经验报告”形式提供实际系统或原型统开发、部署与使用过程中获得的经验和见解。</li>
+				<li class="li-01">演示系统对BPM领域的重要性（创新性、应用价值）。</li>
+				<li class="li-01">可以包括配以解说的系统演示视频下载地址。</li>
+				<li class="li-01">参考文献。</li>
+			</ul>
+			<p class="p-01">被录取的演示系统，至少有一名作者注册并在大会做系统演示报告。为确保演示效果，演示组委员会将根据大会日程安排提前通知报告人员准备好演示方案、演示步骤以及根据系统特色和功能所必要的场景布置。同时，为便于感兴趣的学者提前了解演示主题和相关背景，作者可以在大会指定的醒目位置张贴宣传海报。CBPM 2017大会将设立最佳演示奖，并成立系统演示奖励专门评审委员会。委员会将根据演示论文评审结果、现场系统演示效果、观众支持率等综合因素讨论决定最佳演示奖。最佳演示奖将在CBPM 2017闭幕式上进行颁发。有任何疑问请通过邮件咨询南京大学葛季栋老师。 Email：gjd@nju.edu.cn</p>
+		</div>
+	</div>	
+    <!-- =================================-->
+    
+    <!-- =================================-->
+    <!-- footer -->
+	<div class="floor-05 container">
+		<div class="footer">All rights reserved © 2017 第七届中国业务过程管理大会 (China BPM 2017)</div>
+	</div>	
+    <!-- =================================-->
+    
+    <!-- =================================-->
+    <!-- js -->
+    <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.SuperSlide.2.1.js"></script>
+    <script>
+    $(function(){    
+      // $("#rightFrame").height($("#rightFrame").contents().find("html").height()+20)
+    //slideBox
+    $("#slideBox").slide({
+    	mainCell:".bd ul",
+    	effect:"leftLoop",
+    	autoPlay:true,
+    	trigger:"click"
+    	});
+	     
+    });
+    </script>
+    <!-- =================================-->    
+	</body>
+</html>
