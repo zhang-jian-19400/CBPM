@@ -22,6 +22,4 @@ public class Manage {
 	public void setFilename(String filename) {
 		this.filename = filename;
 	}
-	
-
 }
