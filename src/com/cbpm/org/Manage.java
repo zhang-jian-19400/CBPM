@@ -3,6 +3,7 @@ package com.cbpm.org;
 public class Manage {
 	private String name;
 	private String pwd;
+	private String filename;
 	public String getName() {
 		return name;
 	}
@@ -14,5 +15,11 @@ public class Manage {
 	}
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
+	}
+	public String getFilename() {
+		return filename;
+	}
+	public void setFilename(String filename) {
+		this.filename = filename;
 	}
 }
