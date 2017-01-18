@@ -15,6 +15,4 @@ public class Manage {
 	public void setPwd(String pwd) {
 		this.pwd = pwd;
 	}
-	
-
 }
