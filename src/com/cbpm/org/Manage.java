@@ -3,7 +3,14 @@ package com.cbpm.org;
 public class Manage {
 	private String name;
 	private String pwd;
-	private String filename;
+  private String filename;
+	private int num;	
+	public int getNum() {
+		return num;
+	}
+	public void setNum(int num) {
+		this.num = num;
+  }
 	public String getName() {
 		return name;
 	}
