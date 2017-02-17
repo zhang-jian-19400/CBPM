@@ -12,10 +12,10 @@
 	    <link href="css/hover.css" rel="stylesheet">
 	    <style>
 	    *{margin: 0;padding: 0;border: none;}
-		.main{font-family: "宋体";margin-left: 300px;margin-right: 300px;}
+		/*.main{font-family: "宋体";margin-left: 300px;margin-right: 300px;}*/
 		.article-title{text-align: center;font-size: 24px;font-weight: bold;}
 		.article-title-type{text-align: center;font-size: 24px;margin-top: 20px;margin-bottom: 10px;font-weight: bold;}
-		.conference-title{font-size: 20px;margin-left: 24px;margin-bottom: 10px;margin-top: 20px;}
+		.conference-title{font-size: 20px;margin-left: 24px;margin-bottom: 10px;margin-top: 20px;font-weight: bold;color: #148ed3;}
 		.conference-title-02{margin-top:35px;}
 		.conference-table{width: 100%;text-align: center;font-size: 18px;}
 		.conference-table tr{line-height: 26px;}
@@ -23,12 +23,36 @@
 		.sch-name{width: 65%;}
 	    </style>
 	</head>
-
 	<body>
+		<style>
+			.main{overflow: hidden;}
+			.main-navbar{width:250px;min-height: 100px;background-color: #ffffff;float: left;margin-left: 20px;font-family: "微软雅黑";}
+			.main-navbar-ul li{list-style-type: none;padding-top: 10px;padding-bottom: 10px;border-bottom: 1px dotted #cccccc;}
+			.main-navbar-ul li a{text-decoration: none;color: #555555;font-size: 16px;}
+			.main-navbar-ul li a:hover{color: #00629d;}
+			.main-navbar-ul img{width: 8px;height: 12px;margin-right: 20px;}
+			.main-content{width: 700px;min-height: 100px;float: right;font-family: "宋体";margin-right: 80px;}
+		</style>
 		<div class="main">
+			<div class="main-navbar">
+				<ul class="main-navbar-ul">
+					<li><img src="img/arrow-01.png"><a href="#a">会议指导委员会</a></li>
+					<li><img src="img/arrow-01.png"><a href="#b">大会主席</a></li>
+					<li><img src="img/arrow-01.png"><a href="#c">程序委员会主席</a></li>
+					<li><img src="img/arrow-01.png"><a href="#d">工业主席</a></li>					
+					<li><img src="img/arrow-01.png"><a href="#e">出版主席</a></li>		
+					<li><img src="img/arrow-01.png"><a href="#f">宣传主席</a></li>
+					<li><img src="img/arrow-01.png"><a href="#g">演示主席</a></li>
+					<li><img src="img/arrow-01.png"><a href="#h">赞助主席</a></li>
+					<li><img src="img/arrow-01.png"><a href="#i">博士论坛主席</a></li>					
+					<li><img src="img/arrow-01.png"><a href="#j">组织主席</a></li>	
+					<li><img src="img/arrow-01.png"><a href="#k">财务主席</a></li>
+				</ul>
+			</div>
+			<div class="main-content">
 				<div class="article-title">2017年第七届中国业务过程管理大会(CBPM2017)</div>
 				<div class="article-title-type">会议组织</div>
-					<p class="conference-title">会议指导委员会</p>
+					<p class="conference-title" id="a">会议指导委员会</p>
 					<table class=" conference-table">
 						<tr><td class="pro-name">王建民</td><td class="sch-name">清华大学</td></tr>
 						<tr><td class="pro-name">苏建文</td><td class="sch-name">加利福尼亚大学圣芭芭拉分校</td></tr>
@@ -39,58 +63,60 @@
 						<tr><td class="pro-name">尹建伟</td><td class="sch-name">浙江大学</td></tr>
 						<tr><td class="pro-name">闻立杰</td><td class="sch-name">清华大学</td></tr>						
 					</table>
-					<p class="conference-title conference-title-02">大会主席</p>					
+					<p class="conference-title conference-title-02" id="b">大会主席</p>					
 					<table class=" conference-table">
 						<tr><td class="pro-name">刘建勋</td><td class="sch-name">湖南科技大学</td></tr>
 						<tr><td class="pro-name">张亮</td><td class="sch-name">复旦大学</td></tr>
 						<tr><td class="pro-name">陈金俊</td><td class="sch-name">澳大利亚悉尼科技大学</td></tr>				
 					</table>
-					<p class="conference-title conference-title-02">程序委员会主席</p>					
+					<p class="conference-title conference-title-02" id="c">程序委员会主席</p>					
 					<table class=" conference-table">
 						<tr><td class="pro-name">葛季栋</td><td class="sch-name">南京大学</td></tr>
 						<tr><td class="pro-name">文一凭</td><td class="sch-name">湖南科技大学</td></tr>			
 					</table>					
-					<p class="conference-title conference-title-02">工业主席</p>					
+					<p class="conference-title conference-title-02" id="d">工业主席</p>					
 					<table class=" conference-table">
 						<tr><td class="pro-name">刘英博</td><td class="sch-name">清华大学</td></tr>
 						<tr><td class="pro-name">满君丰</td><td class="sch-name">湖南工业大学</td></tr>			
 					</table>	
-					<p class="conference-title conference-title-02">出版主席</p>					
+					<p class="conference-title conference-title-02" id="e">出版主席</p>					
 					<table class=" conference-table">
 						<tr><td class="pro-name">任开军</td><td class="sch-name">国防科技大学</td></tr>
 						<tr><td class="pro-name">张以文</td><td class="sch-name">安徽大学</td></tr>			
 					</table>	
-					<p class="conference-title conference-title-02">宣传主席</p>					
+					<p class="conference-title conference-title-02" id="f">宣传主席</p>					
 					<table class=" conference-table">
 						<tr><td class="pro-name">邓水光</td><td class="sch-name">浙江大学</td></tr>
 						<tr><td class="pro-name">鲁法明</td><td class="sch-name">山东科技大学</td></tr>			
 					</table>	
-					<p class="conference-title conference-title-02">演示主席</p>					
+					<p class="conference-title conference-title-02" id="g">演示主席</p>					
 					<table class=" conference-table">
 						<tr><td class="pro-name">余阳</td><td class="sch-name">中山大学</td></tr>
 						<tr><td class="pro-name">屈喜龙</td><td class="sch-name">湖南财政经济学院</td></tr>			
 					</table>					
-					<p class="conference-title conference-title-02">赞助主席</p>					
+					<p class="conference-title conference-title-02" id="h">赞助主席</p>					
 					<table class=" conference-table">
 						<tr><td class="pro-name">刘永红</td><td class="sch-name">湖南大学</td></tr>
 						<tr><td class="pro-name">窦万春</td><td class="sch-name">南京大学</td></tr>			
 						<tr><td class="pro-name">胡春华</td><td class="sch-name">湖南商学院</td></tr>	
 					</table>	
-					<p class="conference-title conference-title-02">博士论坛主席</p>					
+					<p class="conference-title conference-title-02" id="i">博士论坛主席</p>					
 					<table class=" conference-table">
 						<tr><td class="pro-name">闫志强</td><td class="sch-name">首都经济贸易大学</td></tr>
 						<tr><td class="pro-name">曹斌</td><td class="sch-name">浙江工业大学</td></tr>			
 					</table>	
-					<p class="conference-title conference-title-02">组织主席</p>					
+					<p class="conference-title conference-title-02" id="j">组织主席</p>					
 					<table class=" conference-table">
 						<tr><td class="pro-name">刘玉珍</td><td class="sch-name">湖南科技大学</td></tr>
 						<tr><td class="pro-name">曾赛峰</td><td class="sch-name">湖南工程学院</td></tr>			
 					</table>	
-					<p class="conference-title conference-title-02">财务主席</p>					
+					<p class="conference-title conference-title-02" id="k">财务主席</p>					
 					<table class=" conference-table">
 						<tr><td class="pro-name">赵肄江</td><td class="sch-name">湖南科技大学</td></tr>
 						<tr><td class="pro-name">禹蒲阳</td><td class="sch-name">湖南科技大学</td></tr>			
-					</table>						
+					</table>				
+			</div>
 		</div>
+
 	</body>
 </html>
