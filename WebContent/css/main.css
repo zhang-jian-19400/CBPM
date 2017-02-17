@@ -4,7 +4,7 @@
 .floor-02{width: 1200px;height: 50px;margin:auto;margin-top:3px;background-color: #00629d;}
 .navbar{font-size: 17px;}
 .nli{height:50px;line-height:50px;text-decoration: none;float: left;list-style-type: none;}
-.nli a{text-decoration: none;color: #ffffff;display: block;padding-left:26px;padding-right:26px;}
+.nli a{text-decoration: none;color: #ffffff;display: block;padding-left:25px;padding-right:25px;}
 .nli a:hover{background-color: #65abd6;}
 .floor-03{width: 1200px;height: 300px;margin: auto;}
 .slideBox{ width:1200px; height:300px; overflow:hidden; position:relative; border:1px solid #ddd;  }
